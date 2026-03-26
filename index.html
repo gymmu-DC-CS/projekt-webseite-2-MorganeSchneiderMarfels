@@ -2,103 +2,213 @@
 <html>
 <head>
     <title>The best romcoms</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5efe6;
+            margin: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        p {
+            max-width: 800px;
+            margin: 10px auto;
+            line-height: 1.6;
+        }
+
+        /* GRID */
+        .movies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        /* CARDS */
+        .movie-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            overflow: hidden;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: black;
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+
+        .poster {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .movie-info {
+            padding: 15px;
+        }
+
+        /* DETAILS */
+        .details-section {
+            padding: 40px;
+        }
+
+        .movie-detail {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+    </style>
 </head>
+
 <body>
 
 <h1>Romcom-Univers</h1>
-<p>Wlcome to the ultimate rom-com movie guide!</p>
+
+
 <h2>Introduction</h2>
-<p>Romantic comedies, or rom-coms, are movies that combine love stories with funny and heartwarming situations. They focus on characters finding romance, often with awkward moments, misunderstandings, or hilarious challenges along the way.
 
-Rom-coms usually follow a simple pattern: two people meet, they face obstacles (sometimes comedic, sometimes emotional), and by the end, they fall in love or learn something important about relationships.
+<p>
+Romantic comedies, or rom-coms, are movies that combine love stories with funny and heartwarming situations. They focus on characters finding romance, often with awkward moments, misunderstandings, or hilarious challenges along the way.<br>
+Rom-coms usually follow a simple pattern: two people meet, they face obstacles (sometimes comedic, sometimes emotional), and by the end, they fall in love or learn something important about relationships.<br>
+These films are popular because they make us laugh, feel emotional, and root for the couple.<br>
+Rom-coms have been entertaining audiences for decades, from the classic 1980s hits to modern favorites like Crazy Rich Asians. 
+They aren't just about romance—they're about fun, laughter, and the little moments that make love feel real.
+</p>
 
-These films are popular because they make us laugh, feel emotional, and root for the couple. Some classic examples include:
-
-
-Rom-coms have been entertaining audiences for decades, from the classic 1980s hits to modern favorites like Crazy Rich Asians. They aren't just about romance—they're about fun, laughter, and the little moments that make love feel real.</p>
+<h2>The top 4 Romcoms you should know</h2>
 
 <section class="movies-grid">
 
-  <!-- 10 Things I Hate About You -->
-  <div class="movie-card">
-    <img src="image" alt="10 Things I Hate About You Poster" class="poster">
+  <a href="#movie1" class="movie-card">
+    <img src="https://i.pinimg.com/originals/39/5d/e2/395de21a37f33b1d5e5b3074aaf12390.jpg" class="poster">
     <div class="movie-info">
-      <p><strong>Release Year:</strong> 1999</p>
-      <p><strong>Main Actors:</strong> Heath Ledger, Julia Stiles</p>
-      <p><strong>Rating:</strong> ⭐⭐⭐⭐</p>
-      <p><strong>Summary:</strong> A modern high school adaptation of Shakespeare's "The Taming of the Shrew".</p>
+      <p><strong>10 Things I Hate About You (1999)</strong></p>
+      <p>Heath Ledger, Julia Stiles</p>
     </div>
+  </a>
+
+  <a href="#movie2" class="movie-card">
+    <img src="https://i.pinimg.com/736x/e8/12/72/e81272f530d1103719c8f97831535301.jpg" class="poster">
+    <div class="movie-info">
+      <p><strong>How to Lose a Guy in 10 Days (2003)</strong></p>
+      <p>Kate Hudson, Matthew McConaughey</p>
+    </div>
+  </a>
+
+  <a href="#movie3" class="movie-card">
+    <img src="https://static.wikia.nocookie.net/filmguide/images/a/ad/500_Days_of_Summer.jpg/revision/latest/scale-to-width-down/1200?cb=20220821062207" class="poster">
+    <div class="movie-info">
+      <p><strong>500 Days of Summer (2009)</strong></p>
+      <p>Joseph Gordon-Levitt, Zooey Deschanel</p>
+    </div>
+  </a>
+
+  <a href="#movie4" class="movie-card">
+    <img src="https://i.pinimg.com/originals/5a/f7/61/5af76101983b8643c66231b56a63147d.jpg" class="poster">
+    <div class="movie-info">
+      <p><strong>13 Going on 30 (2004)</strong></p>
+      <p>Jennifer Garner, Mark Ruffalo</p>
+    </div>
+  </a>
+
+</section>
+
+<section class="details-section">
+
+  <div id="movie1" class="movie-detail">
+    <h2>10 Things I Hate About You</h2>
+    <p><strong>Cast:</strong> Heath Ledger, Julia Stiles</p>
+    <p>
+   10 Things I Hate About You is a modern high school adaptation of William Shakespeare's The Taming of the Shrew. The film is set in an American high school and focuses on Kat Stratford, an intelligent and independent teenager who avoids relationships, and Patrick Verona, a mysterious and rebellious student. <br>
+   <p></p>
+   The story begins when Kat's younger sister is not allowed to date unless Kat does. This leads to a plan where Patrick is paid to date Kat. 
+   What starts as a fake relationship slowly turns into something real as both characters begin to open up emotionally. Kat learns to trust again, while Patrick shows a more sensitive and genuine side.<br>
+   <p></p>
+   The film is well known for its witty dialogue, strong female lead, and memorable romantic scenes, such as the famous stadium performance.
+   It also helped boost the careers of actors like Heath Ledger and Julia Stiles. The movie combines humor, teenage struggles, and romance, making it one of the most iconic teen rom-coms of its time.
+    </p>
   </div>
 
-  <!-- How to Lose a Guy in 10 Days -->
-  <div class="movie-card">
-    <img src="images/loseagu.jpg" alt="How to Lose a Guy in 10 Days Poster" class="poster">
-    <div class="movie-info">
-      <p><strong>Release Year:</strong> 2003</p>
-      <p><strong>Main Actors:</strong> Kate Hudson, Matthew McConaughey</p>
-      <p><strong>Rating:</strong> ⭐⭐⭐⭐</p>
-      <p><strong>Summary:</strong> A journalist and an advertising executive enter a bet that tests their relationship.</p>
-    </div>
+  <div id="movie2" class="movie-detail">
+    <h2>How to Lose a Guy in 10 Days</h2>
+    <p><strong>Cast:</strong> Kate Hudson, Matthew McConaughey</p>
+    <p>
+    How to Lose a Guy in 10 Days is a romantic comedy centered around two characters with completely opposite goals. 
+    Andie Anderson, played by Kate Hudson, is a journalist writing an article about how to push a man away in ten days.<br>
+    <p></p>
+    At the same time, Ben Barry, played by Matthew McConaughey, is an advertising executive who wants to prove he can make a woman fall in love with him within ten days.
+    Without knowing about each other's plans, they start dating. Andie intentionally behaves in ways that should ruin the relationship, while Ben tries everything to keep her interested. This creates many humorous and exaggerated situations.<br>
+    <p></p>
+    As the story develops, their relationship becomes more genuine, and both characters begin to struggle with their original intentions. 
+    The film explores themes of honesty, communication, and emotional vulnerability. It became a popular early 2000s rom-com and is especially known for the strong chemistry between the lead actors and its iconic scenes, such as the “love fern.”
+    </p>
   </div>
 
-  <!-- 500 Days of Summer -->
-  <div class="movie-card">
-    <img src="images/500days.jpg" alt="500 Days of Summer Poster" class="poster">
-    <div class="movie-info">
-      <p><strong>Release Year:</strong> 2009</p>
-      <p><strong>Main Actors:</strong> Joseph Gordon-Levitt, Zooey Deschanel</p>
-      <p><strong>Rating:</strong> ⭐⭐⭐⭐</p>
-      <p><strong>Summary:</strong> A story about love and expectations, following a relationship in a non-linear way.</p>
-    </div>
+  <div id="movie3" class="movie-detail">
+    <h2>500 Days of Summer</h2>
+    <p><strong>Cast:</strong> Joseph Gordon-Levitt, Zooey Deschanel</p>
+    <p>
+    500 Days of Summer is a romantic comedy-drama that offers a more realistic and unconventional look at relationships. The film follows Tom, a hopeless romantic who believes in true love, and Summer, a woman who does not share the same beliefs about relationships.
+    What makes this film unique is its non-linear storytelling. Instead of showing events in chronological order, the movie jumps between different days of their relationship.<br>
+    <p></p>
+    This structure allows the audience to compare happy and painful moments and understand how Tom's expectations often differ from reality.<br>
+    <p></p>
+    The film was directed by Marc Webb and stars Joseph Gordon-Levitt and Zooey Deschanel, whose performances add depth to the characters. Unlike traditional rom-coms, this movie does not follow the typical happy ending. 
+    Instead, it focuses on personal growth and the idea that not all relationships are meant to last. This makes it more relatable and emotionally realistic.
+    </p>
   </div>
 
-  <!-- 13 Going on 30 -->
-  <div class="movie-card">
-    <img src="images/13going30.jpg" alt="13 Going on 30 Poster" class="poster">
-    <div class="movie-info">
-      <p><strong>Release Year:</strong> 2004</p>
-      <p><strong>Main Actors:</strong> Jennifer Garner, Mark Ruffalo</p>
-      <p><strong>Rating:</strong> ⭐⭐⭐⭐</p>
-      <p><strong>Summary:</strong> A teenage girl magically wakes up as a 30-year-old woman and experiences adulthood.</p>
-    </div>
+  <div id="movie4" class="movie-detail">
+    <h2>13 Going on 30</h2>
+    <p><strong>Cast:</strong> Jennifer Garner, Mark Ruffalo</p>
+    <p>
+      13 Going on 30 is a romantic comedy with a fantasy element. The story follows Jenna Rink, a 13-year-old girl who feels unhappy with her teenage life and wishes to be “thirty, flirty, and thriving.” 
+      After making this wish, she wakes up as her 30-year-old self.<br>
+      <p></p>
+      As Jenna navigates her new adult life, she realizes that becoming older did not automatically make her happier. 
+      She has become successful in her career but has lost important relationships along the way, especially with her childhood best friend Matt.<br>
+      <p></p>
+      e film stars Jennifer Garner, whose performance captures both the innocence of a teenager and the challenges of adulthood. Mark Ruffalo plays Matt, adding warmth and emotional depth to the story. 
+      The movie explores themes such as identity, growing up, and the importance of staying true to oneself. It combines humor, romance, and life lessons, making it a beloved feel-good film.
+    </p>
   </div>
 
 </section>
-<style>.movies-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 40px;
-}
 
-.movie-card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  overflow: hidden;
-  transition: transform 0.3s;
-}
+<section class="details-section">
 
-.movie-card:hover {
-  transform: scale(1.05);
-}
+    <h2>Rom-Com Tropes</h2>
 
-.poster {
-  width: 100%;
-  display: block;
-}
+    <h3>Enemies to Lovers</h3>
+    <p>This trope starts with two characters who can't stand each other. Their clashes, teasing, or competition create tension and humor, but over time, they start to understand and appreciate each other, turning conflict into romance.
+    The journey from irritation to attraction keeps audiences engaged and invested in their relationship.</p>
 
-.movie-info {
-  padding: 15px;
-  text-align: left;
-}
+    <h3>Fake Dating</h3>
+    <p>Here, characters pretend to be in a relationship for some external reason, like a bet or a social obligation.
+     Spending time together forces them to interact in new ways, and their fake romance often develops into genuine feelings, creating comedic and emotional tension along the way.</p>
 
-.movie-info p {
-  margin: 5px 0;
-}
+    <h3>Big Misunderstanding</h3>
+    <p>Miscommunication or mistaken assumptions drive this trope.
+     Characters make wrong conclusions about each other, leading to conflict or separation. The eventual revelation resolves tension, making the reconciliation satisfying and emotionally rewarding.</p>
 
+    <h3>Grand Gesture</h3>
+    <p>In this trope, one character performs a bold, often public act to show their love or win back the other person.
+     These moments are dramatic, emotional, and memorable, serving as the climax of the story and often making the audience cheer.</p>
 
+    <h3>Opposites Attract</h3>
+    <p>This trope pairs characters with very different personalities, lifestyles, or worldviews.
+     Their differences create conflict, humor, and chemistry, as they learn from each other and find common ground, showing that love can blossom despite contrasts.</p>
 
+</section>
 
 </body>
 </html>
