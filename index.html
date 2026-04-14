@@ -2,72 +2,9 @@
 <html>
 <head>
     <title>The best romcoms</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5efe6;
-            margin: 0;
-        }
-
-        h1, h2 {
-            text-align: center;
-        }
-
-        p {
-            max-width: 800px;
-            margin: 10px auto;
-            line-height: 1.6;
-        }
-
-        /* GRID */
-        .movies-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 40px;
-        }
-
-        /* CARDS */
-        .movie-card {
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            overflow: hidden;
-            transition: transform 0.3s;
-            text-decoration: none;
-            color: black;
-        }
-
-        .movie-card:hover {
-            transform: scale(1.05);
-        }
-
-        .poster {
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-        }
-
-        .movie-info {
-            padding: 15px;
-        }
-
-        /* DETAILS */
-        .details-section {
-            padding: 40px;
-        }
-
-        .movie-detail {
-            background-color: white;
-            border-radius: 15px;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+<script src="script.js"></script>
 
 <body>
 
@@ -209,6 +146,9 @@ They aren't just about romance—they're about fun, laughter, and the little mom
      Their differences create conflict, humor, and chemistry, as they learn from each other and find common ground, showing that love can blossom despite contrasts.</p>
 
 </section>
+
+<button id="factButton">Fun Rom-Com Fact</button>
+<p id="factDisplay"></p>
 
 </body>
 </html>

@@ -11,3 +11,5 @@ For the images, I used object-fit: cover so they don’t get stretched and alway
 Under the grid, I added more detailed sections for each movie using <div> elements with IDs. These sections include longer summaries and more information about each film.
 
 At the end, I also added a section about common rom-com tropes to give more background information and make the website more interesting.
+
+Most things are new to me so I had to look them up with several websites and also chatgpt. i had to firs look at examples and then work out how i can use them best in my website. a lot of times i had to change stuff over and over because i didnt like the way it looked ect.
