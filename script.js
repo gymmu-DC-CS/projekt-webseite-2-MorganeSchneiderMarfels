@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Crazy Rich Asians was the first major Hollywood rom-com with an all-Asian cast in 25 years.",
       "Rom-coms often use the 'meet-cute' to start the story.",
       "10 Things I Hate About You helped launch Heath Ledger's career.",
-      "500 Days of Summer doesn’t have a traditional happy ending."
+      "500 Days of Summer doesn't have a traditional happy ending."
     ];
 
     const button = document.getElementById("factButton");
