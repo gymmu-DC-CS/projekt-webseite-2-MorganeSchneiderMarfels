@@ -1,15 +1,22 @@
-I made a section with a grid where I show four different movies. For this, I used a <section> and created movie cards using <a> tags, so the whole card is clickable. Each card has an image and some basic information like the title and the main actors. The images are added with the <img> tag, and the link to the image is written in the src attribute, which tells the browser where to get the image from.
 
-I also made it so that when you click on a movie card, it jumps to a more detailed part of the page. I did this by using links like href="#movie1" and giving each detail section its own ID. This connects the cards with the detailed descriptions below.
+I created a section with a grid where I show four different movies. For this, I used a <section> and made movie cards using <a> tags, so the whole card is clickable. Each card has an image and some basic information like the title and the main actors. The images are added with the <img> tag, and the link is written in the src attribute, which tells the browser where to get the image from. We already learned this before, but I also used Khan Academy to refresh it.
 
-For the layout, I used CSS Grid with display: grid. This makes the cards automatically line up in rows and columns. I used grid-template-columns with auto-fit and minmax, which helps the layout adjust depending on the screen size.
+At first, I had some problems with the images because even though I added the link, they didn’t show up. After trying a bit and looking it up, I realised that I used the wrong kind of link. With help from ChatGPT, I understood that I needed direct image links. After changing them, it worked.
 
-I also styled the cards to make them look better. I used border-radius to round the corners and box-shadow to add a shadow so the cards stand out more. I added a hover effect using :hover and transform: scale(1.05), which makes the card slightly bigger when you move the mouse over it.
+I also made it so that when you click on a movie card, it jumps to a more detailed part of the page. I did this by using links like href="#movie1" and giving each detail section its own ID. This connects the cards with the descriptions below. I looked this up again on Khan Academy and also watched some YouTube videos to understand it better.
 
-For the images, I used object-fit: cover so they don’t get stretched and always fill the space nicely.
+Before starting, I had a clear idea of how my website should look. I first drew some ideas on my iPad. Because of the theme, I wanted it to look aesthetic and clean. I knew it would be more than what we learned in class, but I still wanted to try it.
 
-Under the grid, I added more detailed sections for each movie using <div> elements with IDs. These sections include longer summaries and more information about each film.
+For the layout, I used CSS Grid with display: grid, so the cards are in rows and columns. I also used grid-template-columns with auto-fit and minmax so the layout changes depending on the screen size. I didn’t know how to do this before, so I used ChatGPT to understand how it works and then tried it out myself.
 
-At the end, I also added a section about common rom-com tropes to give more background information and make the website more interesting.
+I also styled the cards to make them look nicer. I used border-radius to make the corners round and box-shadow so they stand out more. I added a hover effect using :hover and transform: scale(1.05), so the cards get a bit bigger when you move the mouse over them. Some of these things were new to me, so I looked them up and tested them.
 
-Most things are new to me so I had to look them up with several websites and also chatgpt. i had to firs look at examples and then work out how i can use them best in my website. a lot of times i had to change stuff over and over because i didnt like the way it looked ect.
+For the images, I used object-fit: cover so they don’t get stretched and always fill the space. I found this while fixing my image problem.
+
+Below the grid, I added more detailed sections for each movie using <div> elements with IDs. These include longer summaries and more information. It was important to me that clicking on a card scrolls to the right section.
+
+At the end, I also added a section about common rom-com tropes to make the website more interesting. There I used normal text with headings.
+
+For JavaScript, I first looked up what it is and what it can do. Then I used ChatGPT to help me understand an example and added it to my website.
+
+Most of this was new to me, so I used different websites, YouTube, and ChatGPT to understand it and then tried to use it on my own website.
